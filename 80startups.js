@@ -37,7 +37,7 @@ app.post('/api/postabout',about.addabout);
 app.get('/api/listlogin',userlogin.getlogin);
 app.post('/api/postlogin',userlogin.addlogin);
 
-app.use('/web', express.static(__dirname + '/web'));
+app.use('/www', express.static(__dirname + '/www'));
 
 app.listen(3000);
 console.log('Listening on port 3000...');

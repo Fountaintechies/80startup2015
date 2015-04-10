@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mysql-crup' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'mysql-crup', null ]
+8 verbose cache add name=undefined spec="mysql-crup" args=["mysql-crup",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'mysql-crup',
+9 verbose parsed url   path: 'mysql-crup',
+9 verbose parsed url   href: 'mysql-crup' }
+10 silly lockFile 2d800a8c-mysql-crup mysql-crup
+11 verbose lock mysql-crup C:\Users\ankush\AppData\Roaming\npm-cache\2d800a8c-mysql-crup.lock
+12 silly lockFile 2d800a8c-mysql-crup mysql-crup
+13 silly lockFile 2d800a8c-mysql-crup mysql-crup
+14 verbose addNamed [ 'mysql-crup', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile b84d625e-mysql-crup mysql-crup@
+17 verbose lock mysql-crup@ C:\Users\ankush\AppData\Roaming\npm-cache\b84d625e-mysql-crup.lock
+18 silly addNameRange { name: 'mysql-crup', range: '*', hasData: false }
+19 verbose request where is /mysql-crup
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 04946ebee9b35ca2
+22 verbose url raw /mysql-crup
+23 verbose url resolving [ 'https://registry.npmjs.org/', './mysql-crup' ]
+24 verbose url resolved https://registry.npmjs.org/mysql-crup
+25 verbose request where is https://registry.npmjs.org/mysql-crup
+26 info trying registry request attempt 1 at 17:17:15
+27 http GET https://registry.npmjs.org/mysql-crup
+28 http 404 https://registry.npmjs.org/mysql-crup
+29 verbose headers { date: 'Fri, 10 Apr 2015 11:47:20 GMT',
+29 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '51',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   'x-served-by': 'cache-sn86-SIN',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1428666440.439762,VS0,VE244',
+29 verbose headers   'keep-alive': 'timeout=10, max=50',
+29 verbose headers   connection: 'Keep-Alive' }
+30 silly registry.get cb [ 404,
+30 silly registry.get   { date: 'Fri, 10 Apr 2015 11:47:20 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '51',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1428666440.439762,VS0,VE244',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly lockFile b84d625e-mysql-crup mysql-crup@
+32 silly lockFile b84d625e-mysql-crup mysql-crup@
+33 error 404 404 Not Found: mysql-crup
+33 error 404
+33 error 404 'mysql-crup' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'ftgoals-1'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Windows_NT 6.1.7600
+35 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mysql-crup"
+36 error cwd C:\xampp\htdocs\80startup2015
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]

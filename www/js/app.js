@@ -1,4 +1,4 @@
-var startup = angular.module('startup', ['ui.router']);
+var startup = angular.module('startup', ['startup.controllers','ui.router']);
 
 startup.config(function($stateProvider, $urlRouterProvider) {
 
@@ -9,8 +9,8 @@ startup.config(function($stateProvider, $urlRouterProvider) {
         // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/home',
-            templateUrl: 'templates/home.html'
-
+            templateUrl: 'templates/home.html',
+             controller : 'myController'
         })
 
         .state('add', {

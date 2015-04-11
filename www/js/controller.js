@@ -1,11 +1,10 @@
 angular.module('startup.controllers', [])
   .controller('myController', function($scope,$http) {
   	console.log("in controller");
-
-
   	$http.get(baseURL + 'listoverview').success(function(res) {
 		//$scope.artwork = res;
 		console.log(res);
+		$scope.company_list = res;
 		console.log('in home___________');
 		if (res.status == 'false') {
 			alert(res.message);

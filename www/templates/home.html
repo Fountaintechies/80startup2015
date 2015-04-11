@@ -31,7 +31,7 @@
                 <div ng-repeat="company in company_list">
                     <div class="col-md-4">
                         <img src="assets/img/img_1.jpg">
-                        <a ui-sref="details">{{company.company_name}}</a>
+                        <a ng-click="companyDetails(company.company_id)">{{company.company_name}}</a>
                         <img align="left" class="fb-image-profile thumbnail" src="assets/img/logo_1.png" alt="Profile image example"/>
                     </div>
                 </div>

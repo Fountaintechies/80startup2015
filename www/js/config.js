@@ -3,8 +3,8 @@ if (document.location.hostname == "localhost" || document.location.hostname == "
     var baseURL = base +"/api/";
     var uploadUrl = base +"/uploads/";
 */
-var baseURL="http://localhost:3000/api";
-var uploadUrl = "http://node.fountaintechies.com:9000/uploads/";
+var baseURL="http://localhost:3000/api/";
+var uploadUrl = "http://localhost:3000/uploads/";
 } else {
 
 	var baseURL="http://node.fountaintechies.com:9000/api";

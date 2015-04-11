@@ -21,8 +21,7 @@ var company_overview = crud(connection,'company');
 //list company using crud
 exports.getoverview=function(attrs,callback){
   console.log("attrs.......");
-  console.log(attrs);
-  alert(attrs);
+  console.log(attrs);  
 company_overview.load({}, function(err, val){
  callback.json(val);
 });

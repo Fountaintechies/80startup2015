@@ -27,7 +27,7 @@ app.post('/api/postpeople',people.addcompany);
 
 app.get('/api/listoverview',overview.getoverview);
 app.post('/api/postoverview',overview.addoverview);
-app.get('/api/companyInfo',overview.getCompanyDetails);
+app.post('/api/companyInfo',overview.getCompanyDetails);
 
 
 app.get('/api/listpicture',picture.getpicture);

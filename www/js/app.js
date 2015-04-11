@@ -18,9 +18,9 @@ startup.config(function($stateProvider, $urlRouterProvider) {
         })
 
         .state('details', {
-            url: '/details',
+            url: '/details/:cid',
             templateUrl: 'templates/startup_detail.html',
-            controller : 'myController'
+            controller : 'companydetailController'
         })
         $urlRouterProvider.otherwise('/home');
 

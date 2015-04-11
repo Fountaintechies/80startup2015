@@ -27,13 +27,13 @@ company_overview.load({}, function(err, val){
 };
 exports.getCompanyDetails=function(req,res){
   console.log("attrs....... in id");
-  console.log(req.body);  
-  company_overview.load({}, function(err, val){
- callback.json(val);
+  console.log(req.body.cid);  
+
+company_overview.load({company_id:req.body.cid}, function(err, val){
+  console.log(err);
+  console.log(val);      
+ res.json(val);
 });
-/*company_overview.load({}, function(err, val){
- callback.json(val);
-});*/
 };
 
 exports.addoverview = function(attrs,callback){

@@ -1,4 +1,4 @@
-﻿
+
 @font-face {
     font-family: 'titilliumbold';
     src: url('../fonts/Titillium-Semibold_0-webfont.eot');
@@ -269,10 +269,10 @@ padding:0px;
   }
 #add_startup_section:after{
     content: "";position: absolute;width: 0;height: 0;border-top: 25px solid #19647F;border-left: 25px solid transparent;border-right: 25px solid transparent;bottom:-25px;left: 50%;margin-left: -5px;margin-top: -1px;
-}  
+}
 .add_startup_section h2{
       font-size: 40px;
-}    
+}
 .stepwizard-step p {
     margin-top: 10px;
   font-size: 18px;
@@ -340,7 +340,7 @@ padding:0px;
 }
 
     #header .overlay {
-        min-height: 600px;
+        min-height: 400px;
     }
 
     #header h1 {
@@ -601,7 +601,7 @@ footer {
 }
 .fb-profile img.fb-image-lg{
     z-index: 0;
-    width: 100%;  
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -635,7 +635,7 @@ footer {
   position: absolute;
   width: 379px;
   bottom: 4px;
-  left: 8px;   
+  left: 8px;
 
 }
 .pad-bottom_1 a {

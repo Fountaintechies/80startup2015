@@ -31,31 +31,34 @@
    <script src="js/config.js"></script>
 
 </head>
-<body data-spy="scroll" data-target=".navbar-fixed-top" ng-app="startup" >
+<body  ng-app="startup" >
 
-    <div class="navbar navbar-default navbar-fixed-top" style="padding:8px;">
-        <!-- pass scroll-me class above a tags to starts scrolling -->
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
+  <body data-spy="scroll" data-target=".navbar-fixed-top" ng-app="startup" >
+
+      <div class="navbar navbar-default navbar-fixed-top">
+          <!-- pass scroll-me class above a tags to starts scrolling -->
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" height="10px" width="180" alt="" style="margin-left:50px;margin-top:0px;"/>
                 </a>
-            </div>
+              </div>
             <div class="navbar-collapse collapse" style="margin-top:0px;padding:0px;margin-bottom:0px;">
-                <ul class="nav navbar-nav pull-right">
-                    <li class="active" style="padding:0px;">
-                      <a ui-sref="home" style="boder-radius:2px;padding:0px;margin-right:50px;">Startups</a></li>
-
-                </ul>
+              <ul class="nav navbar-nav pull-right">
+                  <li class="active"><a ui-sref="home">Startups</a></li>
+                  <li><a href="#services">Login</a></li>
+                   <li><a href="#clients">Add Startup</a></li>
+              </ul>
             </div>
 
         </div>
     </div>
+
     <!-- NAVBAR END  -->
 
     <div class="container">

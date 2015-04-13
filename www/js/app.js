@@ -2,7 +2,6 @@ var startup = angular.module('startup', ['startup.controllers','ui.router']);
 
 startup.config(function($stateProvider, $urlRouterProvider) {
 
-    
     $stateProvider
 
         // HOME STATES AND NESTED VIEWS ========================================

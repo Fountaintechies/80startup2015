@@ -269,10 +269,10 @@ padding:0px;
   }
 #add_startup_section:after{
     content: "";position: absolute;width: 0;height: 0;border-top: 25px solid #19647F;border-left: 25px solid transparent;border-right: 25px solid transparent;bottom:-25px;left: 50%;margin-left: -5px;margin-top: -1px;
-}  
+}
 .add_startup_section h2{
       font-size: 40px;
-}    
+}
 .stepwizard-step p {
     margin-top: 10px;
   font-size: 18px;
@@ -601,13 +601,13 @@ footer {
 }
 .fb-profile img.fb-image-lg{
     z-index: 0;
-    width: 100%;  
+    width: 100%;
     margin-bottom: 10px;
 }
 
 .fb-image-profile
 {
-    margin: -50px 10px 0px 25px;
+    margin: 5px 10px 0px 25px;
     z-index: 9;
     width: 22%;
     border-radius: 50%;
@@ -635,7 +635,7 @@ footer {
   position: absolute;
   width: 379px;
   bottom: 4px;
-  left: 8px;   
+  left: 8px;
 
 }
 .pad-bottom_1 a {

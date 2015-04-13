@@ -39,7 +39,7 @@ app.post('/api/postabout',about.addabout);
 app.get('/api/listlogin',userlogin.getlogin);
 app.post('/api/postlogin',userlogin.addlogin);
 
-app.use('/www', express.static(__dirname + '/www'));
+app.use('/', express.static(__dirname + '/www'));
 
 app.listen(9000);
 console.log('Listening on port 9000...');

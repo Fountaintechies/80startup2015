@@ -11,7 +11,6 @@
     font-style: normal;
 
 }
-
 body {
     font-family: 'lato', sans-serif;
     line-height: 25px;
@@ -341,7 +340,7 @@ padding:0px;
 }
 
     #header .overlay {
-        min-height: 400px;
+        min-height: 600px;
     }
 
     #header h1 {
@@ -608,7 +607,7 @@ footer {
 
 .fb-image-profile
 {
-    margin: -50px 10px 0px 25px;
+    margin: 5px 10px 0px 25px;
     z-index: 9;
     width: 22%;
     border-radius: 50%;

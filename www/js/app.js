@@ -11,8 +11,8 @@ startup.config(function($stateProvider, $urlRouterProvider) {
              controller : 'myController'
         })
 
-        .state('add', {
-            url: '/add',
+        .state('addstartup', {
+            url: '/addstartup',
             templateUrl: 'templates/add_startup.html'
         })
 

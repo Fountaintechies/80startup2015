@@ -20,18 +20,18 @@ var connection = mysql.createPool({
 var company_overview = crud(connection,'company');
 //list company using crud
 exports.getoverview=function(attrs,callback){
-  
+
 company_overview.load({}, function(err, val){
  callback.json(val);
 });
 };
 exports.getCompanyDetails=function(req,res){
   console.log("attrs....... in id");
-  console.log(req.body.cid);  
+  console.log(req.body.cid);
 
 company_overview.load({company_id:req.body.cid}, function(err, val){
   console.log(err);
-  console.log(val);      
+  console.log(val);
  res.json(val);
 });
 };
